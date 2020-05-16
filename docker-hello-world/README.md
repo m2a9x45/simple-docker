@@ -16,7 +16,7 @@ docker build -t hello-world .
 And then started the container with :
 
 ```console
-docker run -p 80:80 -v /home/lewis/dev/testproject/src:/var/www/html hellow-world
+docker run -p 80:80 -v /home/lewis/dev/testproject/docker-hello-world/src:/var/www/html hellow-world
 ```
 
 - -p binds port 80 of the host to port 80 on the local computer
